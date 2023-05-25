@@ -1,0 +1,39 @@
+.setting-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.setting-icon {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+  position: relative;
+}
+
+.setting-icon i {
+  font-size: 25px;
+  width: 30px;
+}
+.setting-icon span {
+  padding-left: 20px;
+  font-size: 20px;
+}
+.setting-subtitle span {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.under-border {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.div-border {
+  margin: 25px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.badge-position {
+  position: absolute;
+  left: 130px;
+  font-size: 12px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat/C - KokoaTalk</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar chat-background-color">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-full fa-2x"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header chat-background-color">
+      <div class="alt-header__column">
+        <a href="javascript:history.back()">
+          <i class="fa-solid fa-chevron-left fa-xl"></i
+        ></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-screen-header__tilte">쿠키</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-xl"></i></span>
+        <span><i class="fa-solid fa-bars fa-xl"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="chats-timestamp"><span>Tuseday, May 23, 2023</span></div>
+
+      <div class="message-row message-row__friend">
+        <img
+          class="user-component__avatar--sm"
+          src="https://avatars.githubusercontent.com/u/123862684?s=400&u=676e85e9aff4710e89f310930ed95e6877f36850&v=4"
+        />
+        <div class="message-row__content">
+          <span class="message-author">Cooki</span>
+          <div class="message-box">
+            <span class="message-box__text">오빠!</span>
+            <span class="message-box__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row__own">
+        <div class="message-row__content">
+          <div class="message-box">
+            <span class="message-box__text">Nice to meet you!</span>
+            <span class="message-box__time">21:35</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="input-box">
+      <div class="input-box__column">
+        <i class="fa-regular fa-square-plus fa-xl"></i>
+      </div>
+      <div class="input-box__column">
+        <input type="text" placeholder="Write message..." />
+        <i class="fa-regular fa-face-smile-wink"></i>
+        <button><i class="fa-solid fa-arrow-up"></i></button>
+      </div>
+    </form>
+
+    <div id="no-mobile"><span>화면이 너무 커요!</span></div>
+
+    <script
+      src="https://kit.fontawesome.com/cfabfc7038.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

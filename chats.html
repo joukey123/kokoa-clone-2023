@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - KokoaTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-full fa-2x"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__tilte">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-xl"></i></span>
+        <span><i class="fa-solid fa-comment-dots fa-xl"></i></span>
+        <span><i class="fas fa-music fa-xl"></i></span>
+        <sapn>
+          <a href="setting.html"><i class="fa-solid fa-gear fa-xl"></i></a
+        ></sapn>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://avatars.githubusercontent.com/u/123862684?s=400&u=676e85e9aff4710e89f310930ed95e6877f36850&v=4"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">cookie</h4>
+              <h6 class="user-component__subtitle">
+                Please check My Kokoa Account info
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-componet__time">18:43</span>
+            <span class="badge-sm">1</span>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav_notification badge">1</span>
+            <i class="fas fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav_update-dot update-dot"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile"><span>화면이 너무 커요!</span></div>
+
+    <script
+      src="https://kit.fontawesome.com/cfabfc7038.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

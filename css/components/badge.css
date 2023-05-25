@@ -1,0 +1,22 @@
+.badge {
+  background-color: tomato;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: badgeeffect 1s ease-in-out infinite;
+}
+
+.badge-sm {
+  background-color: tomato;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
